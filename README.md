@@ -21,7 +21,7 @@ services:
             - uploads:/var/www/html/wp-content/uploads
         restart: always
     http:
-        build: http
+        image: milanb/wordpress-nginx
         links:
             - wp:wordpress
         volumes_from:
