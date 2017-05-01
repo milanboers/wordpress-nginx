@@ -4,8 +4,9 @@ Nginx container configured for use with Wordpress on php-fpm
 ```bash
 docker pull milanb/wordpress-nginx
 ```
+[Docker Hub milanb/wordpress-nginx](https://hub.docker.com/r/milanb/wordpress-nginx/)
 
-Can be used in conjunction with [wordpress-sqlite](https://github.com/milanboers/wordpress-sqlite) to provide a full lightweight Wordpress solution.
+Can be used in conjunction with [wordpress-sqlite](https://github.com/milanboers/wordpress-sqlite) ([Docker Hub milanb/wordpress-sqlite](https://hub.docker.com/r/milanb/wordpress-sqlite/)) to provide a full lightweight Wordpress solution.
 
 Example docker-compose.yml for both:
 ```yaml
